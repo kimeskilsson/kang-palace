@@ -1,0 +1,70 @@
+/* ==== NAVBAR ====*/
+
+.topnav {
+  background-color: $quaternary-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    li {
+      display: inline;
+      a {
+        display: inline-block;
+        padding: 1em;
+        color: $primary-color;
+        text-shadow: 0.5px 0.5px 0px $quinary-color;
+        text-decoration: none;
+        display: none;
+      } & :hover {
+        background-color: $senary-color;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+
+
+.dont-hide {
+  display: inline-block !important;
+}
+
+
+
+#menu-icon {
+  float: right;
+  display: block;
+}
+
+.topnav.dropped ul li a {
+  display: block;
+  
+}
+
+.topnav.dropped #menu-icon {
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+  #menu-icon {
+      display: none;
+  }
+
+  .topnav ul li a {
+    display: inline-block;
+  }
+
+}

@@ -1,14 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Kang Palace</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
-  <script src="main.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  
 </head>
 <body>
+  <nav class="topnav" id="myTopnav">
+   <ul class="wrapper">
+    <div class="nav-logo">
+      <li><a href="index.html" class="dont-hide">Kangpalace.com</a> </li>
+   </div> <!-- /nav logo-->
+  <div class="nav-items">
+      <li><a href="#menu">Menu </a> </li>
+      <li><a href="#about">About Us </a> </li>
+      <li><a href="#find">Find Us</a> </li>
+      <li><a href="#contact">Contact</a> </li>
+      <li><a href="javascript:void(0);" id="menu-icon" onclick="navToggle()"><i class="material-icons">menu</i></a></li>   
+  </div> <!-- /nav-items-->
+   </ul>
+
+
+  </nav>
+  <header> 
+    <img src="img/kplogo01.svg" alt="the kang palace logotype" id="headerlogo">
+    <!-- <h1>Kang Palace </h1> -->
+  </header>
+  <main>
+  <section id="menu">
+    <h2>Menu</h2>
+  </section>
+  <section id="about">
+    <h2>About us</h2>
+  </section>
+  <section id="find">
+    <h2>Map</h2>
+  </section>
   
+
+
+
+
+  </main>
+  <footer id="contact">
+    <p>Footer</p>
+  </footer>
+
+  <script>
+        
+      function navToggle() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " dropped";
+          } else {
+              x.className = "topnav";
+          }
+      }
+       
+  </script>
 </body>
 </html>

@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 html {
   line-height: 1.15;
   /* 1 */
@@ -300,3 +301,78 @@ template {
  */
 [hidden] {
   display: none; }
+
+body {
+  font-family: "Bree Serif", serif, sans-serif; }
+
+/* ==== NAVBAR ====*/
+.topnav {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; }
+  .topnav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .topnav ul li {
+      display: inline; }
+      .topnav ul li a {
+        display: inline-block;
+        padding: 1em;
+        color: #730003;
+        text-shadow: 0.5px 0.5px 0px #c6bd9e;
+        text-decoration: none;
+        display: none; }
+      .topnav ul li :hover {
+        background-color: #dfdfdf;
+        font-weight: bold; }
+
+.dont-hide {
+  display: inline-block !important; }
+
+#menu-icon {
+  float: right;
+  display: block; }
+
+.topnav.dropped ul li a {
+  display: block; }
+
+.topnav.dropped #menu-icon {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+@media screen and (min-width: 600px) {
+  #menu-icon {
+    display: none; }
+
+  .topnav ul li a {
+    display: inline-block; } }
+/* ==== HEADER ==== */
+header {
+  height: 80vh;
+  background-image: url(../img/kangheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#headerlogo {
+  position: absolute;
+  width: 100vw;
+  top: 50vh;
+  text-align: center;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+  -webkit-filter: drop-shadow(-10px -10px 10px #000000); }
+
+@media screen and (min-width: 500px) {
+  #headerlogo {
+    width: 70vw; } }

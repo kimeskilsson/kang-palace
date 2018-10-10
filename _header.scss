@@ -1,0 +1,27 @@
+/* ==== HEADER ==== */
+
+header {
+  height: 80vh;
+  background-image: url(../img/kangheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#headerlogo {
+  position: absolute;
+  width: 100vw;
+  top: 50vh;
+  text-align: center;
+  transform: translateY(-70%);
+  -webkit-filter: drop-shadow(-10px -10px 10px $quaternary-color);
+}
+
+@media screen and (min-width: 500px) {
+
+  #headerlogo {
+  width: 70vw;
+  }
+}
+
+
+
