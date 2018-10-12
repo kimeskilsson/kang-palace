@@ -28,35 +28,37 @@
     
 }
 
-/* The Close Button */
-.close {
-    color: #730003;
+/* The minimize Button */
+.minimize {
+    color: $senary-color;
     float: right;
-    font-size: 28px;
+    font-size: 2em;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.minimize:hover,
+.minimize:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #b98e1d;
+    padding: 0.1em;
+    text-align: center;
+    background-color: $primary-color;
     color: white;
 }
 
-.modal-body {padding: 2px 16px;
-background-color: #730003;
-color: white;
+.modal-body {
+  padding: 1em;
+  background-color: $quinary-color; 
+  color: white;
 }
 
 .modal-footer {
-    padding: 2px 16px;
-    background-color: #b98e1d;
+    padding: 0.1em;
+    background-color: $quinary-color;
     color: white;
 }
 
