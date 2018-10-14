@@ -302,31 +302,39 @@ template {
 [hidden] {
   display: none; }
 
+/* ==== GLOBAL ===== */
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: "Bree Serif", serif, sans-serif; }
 
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto; }
+
 /* ==== NAVBAR ====*/
-.topnav {
+nav {
   background-color: #000000;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000; }
-  .topnav ul {
+  nav ul {
     margin: 0;
     padding: 0;
     list-style: none; }
-    .topnav ul li {
+    nav ul li {
       display: inline; }
-      .topnav ul li a {
+      nav ul li a {
         display: inline-block;
         padding: 1em;
         color: #730003;
         text-shadow: 0.5px 0.5px 0px #c6bd9e;
         text-decoration: none;
         display: none; }
-      .topnav ul li :hover {
+      nav ul li :hover {
         background-color: #dfdfdf;
         font-weight: bold; }
 
@@ -363,6 +371,25 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
+/* ==== HEADER ==== */
+header {
+  height: 80vh;
+  background-image: url(../img/kangheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#headerlogo {
+  position: absolute;
+  width: 100vw;
+  top: 50vh;
+  text-align: center;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+  -webkit-filter: drop-shadow(-10px -10px 10px #000000); }
+
+@media screen and (min-width: 500px) {
+  #headerlogo {
+    width: 70vw; } }
 /* ==== MODAL ====*/
 /* The Modal (background) */
 .modal {
@@ -427,10 +454,10 @@ body {
 #myBtn {
   position: fixed;
   float: right;
-  right: 2em;
-  bottom: 2em;
-  font-size: 24px;
-  border-radius: 8px;
+  right: 0;
+  bottom: 1em;
+  font-size: 1em;
+  border-radius: 0.5em;
   background-color: #2f2f2f;
   color: white; }
 
@@ -449,22 +476,6 @@ body {
   to {
     bottom: 0;
     opacity: 1; } }
-/* ==== HEADER ==== */
-header {
-  height: 80vh;
-  background-image: url(../img/kangheader.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-#headerlogo {
-  position: absolute;
-  width: 100vw;
-  top: 50vh;
-  text-align: center;
-  -webkit-transform: translateY(-70%);
-          transform: translateY(-70%);
-  -webkit-filter: drop-shadow(-10px -10px 10px #000000); }
-
-@media screen and (min-width: 500px) {
-  #headerlogo {
-    width: 70vw; } }
+@media screen and (min-width: 700px) {
+  #myBtn {
+    font-size: 1.5em; } }
