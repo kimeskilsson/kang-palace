@@ -9,6 +9,7 @@
   <script src="js/navtoggle.js" defer></script>
   <script src="js/modal.js" defer></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   
 
 </head>
@@ -37,12 +38,19 @@
   <div class="wrapper">
     <section id="menu">
       <h2>Menu</h2>
+      <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+
+          Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+          
+          Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
     </section>
     <section id="about">
       <h2>About us</h2>
+      <p>Based in San Fransisco</p>
     </section>
     <section id="find">
       <h2>Map</h2>
+      <div id="map"> </div> <!-- /map -->
     </section>
         
 
@@ -50,10 +58,18 @@
    
 </div> <!-- wrapper -->
   </main>
-  <footer id="contact">
+  <footer id="footer">
   <div class="wrapper">
 
-    <h2>footer</h2>
+    <p>Copyright &copy; Kang Palace</p>
+
+    <div class="socials">
+    <i class="fab fa-facebook-square"></i>
+    <a href="https://www.instagram.com/kangpalace/" target="_blank">
+    <i class="fab fa-instagram"></i>
+    </a>
+    </div>
+
 
 <!-- Trigger/Open The Modal -->
 <button id="myBtn">Contact</button>
@@ -92,6 +108,22 @@ Message: <br>
 
 </div> <!-- /wrapper-->
   </footer>
+
+  <script>
+  // Initialize and add the map
+      function initMap() {
+        // The location of chinatown
+        var chinatown = {lat: 37.794671, lng: -122.405683}
+        // The map, centered at chinatown
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 15, center: chinatown});
+        // The marker, positioned at chinatown
+        var marker = new google.maps.Marker({position: chinatown, map: map});
+      }</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6KcUj6IBotxM_omL3w1SNNowj5ZGOZb4&callback=initMap">
+</script>
 
 
 </body>

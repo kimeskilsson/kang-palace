@@ -391,6 +391,24 @@ header {
   #headerlogo {
     width: 70vw; } }
 /* === MAIN === */
+main section {
+  text-align: center;
+  padding: 4em 1em; }
+main #menu {
+  background-color: #dfdfdf; }
+main #about {
+  background-image: url(../img/about-us-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 1px 1px 1px black; }
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */ }
+
 /* ==== MODAL ====*/
 /* The Modal (background) */
 .modal {
@@ -480,3 +498,20 @@ header {
 @media screen and (min-width: 700px) {
   #myBtn {
     font-size: 1.5em; } }
+/* === FOOTER === */
+#footer {
+  padding: 5em;
+  background-color: #2f2f2f; }
+
+p {
+  text-align: center; }
+
+.fa-instagram {
+  color: white; }
+
+.fa-facebook-square {
+  color: white; }
+
+.socials {
+  float: right;
+  font-size: 2em; }
