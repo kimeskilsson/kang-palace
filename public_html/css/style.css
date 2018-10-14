@@ -390,6 +390,7 @@ header {
 @media screen and (min-width: 500px) {
   #headerlogo {
     width: 70vw; } }
+/* === MAIN === */
 /* ==== MODAL ====*/
 /* The Modal (background) */
 .modal {
