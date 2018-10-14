@@ -3,13 +3,13 @@
 main {
   section {
     text-align: center;
-    padding: 4em 1em;
+    padding: 0.5em 1em;
   } #menu {
-    background-color: $senary-color;
+    background-color: $quinary-color;
   } #about {
-    background-image: url(../img/about-us-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url(../img/about-us-background.jpg);
+    // background-size: cover;
+    // background-repeat: no-repeat;
     color: white;
     text-shadow: 1px 1px 1px black;
   }
@@ -19,4 +19,14 @@ main {
 #map {
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
+ }
+
+
+ .parallax-about {
+  background-image: url(../img/about-us-background.jpg);
+  height: 50vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
  }

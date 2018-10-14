@@ -335,7 +335,7 @@ nav {
         text-decoration: none;
         display: none; }
       nav ul li :hover {
-        background-color: #dfdfdf;
+        background-color: #e5e5e5;
         font-weight: bold; }
 
 .dont-hide {
@@ -372,11 +372,13 @@ nav {
         -ms-flex-pack: justify;
             justify-content: space-between; } }
 /* ==== HEADER ==== */
-header {
-  height: 80vh;
+.parallax-header {
   background-image: url(../img/kangheader.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #headerlogo {
   position: absolute;
@@ -393,13 +395,10 @@ header {
 /* === MAIN === */
 main section {
   text-align: center;
-  padding: 4em 1em; }
+  padding: 0.5em 1em; }
 main #menu {
-  background-color: #dfdfdf; }
+  background-color: #c6bd9e; }
 main #about {
-  background-image: url(../img/about-us-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   text-shadow: 1px 1px 1px black; }
 
@@ -408,6 +407,14 @@ main #about {
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */ }
+
+.parallax-about {
+  background-image: url(../img/about-us-background.jpg);
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /* ==== MODAL ====*/
 /* The Modal (background) */
@@ -443,7 +450,7 @@ main #about {
 
 /* The minimize Button */
 .minimize {
-  color: #dfdfdf;
+  color: #e5e5e5;
   float: right;
   font-size: 2em;
   font-weight: bold; }
@@ -458,17 +465,17 @@ main #about {
   padding: 0.1em;
   text-align: center;
   background-color: #730003;
-  color: white; }
+  color: #000000; }
 
 .modal-body {
   padding: 1em;
-  background-color: #c6bd9e;
-  color: white; }
+  background-color: #ffffff;
+  color: #000000; }
 
 .modal-footer {
   padding: 0.1em;
-  background-color: #c6bd9e;
-  color: white; }
+  background-color: #ffffff;
+  color: #000000; }
 
 #myBtn {
   position: fixed;
@@ -504,13 +511,14 @@ main #about {
   background-color: #2f2f2f; }
 
 p {
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
 
 .fa-instagram {
-  color: white; }
+  color: #ffffff; }
 
 .fa-facebook-square {
-  color: white; }
+  color: #ffffff; }
 
 .socials {
   float: right;
