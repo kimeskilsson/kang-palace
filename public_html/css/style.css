@@ -532,5 +532,25 @@ ul.content span + span {
     max-width: 800px;
     margin: auto;
     width: 71%; } }
+. . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . "; }
 
-/*# sourceMappingURL=style.css.map */
+ul.content span:first-child {
+  padding-right: 0.33em;
+  background-color: #193021; }
+
+ul.content span + span {
+  float: right;
+  padding-left: 0.33em;
+  background-color: #193021; }
+
+/* .alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+} */
+@media screen and (min-width: 600px) {
+  .menu-max-column {
+    max-width: 800px;
+    margin: auto;
+    width: 71%; } }
