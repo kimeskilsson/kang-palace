@@ -5,68 +5,79 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    right: 0;
+    right: 0em;
     width: 50%; /* Full width */
     overflow: auto; /* Enable scroll if needed */
     -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+
 }
 
 /* Modal Content */
 .modal-content {
     position: fixed;
     bottom: 3em;
-    right: 0;
+    right: 1em;
     background-color: #fefefe;
-    width: 50vw;
+    width: 55vw;
     max-width: 250px;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px
     
 }
 
-/* The Close Button */
-.close {
-    color: #730003;
+/* The minimize Button */
+.minimize {
+    color: $senary-color;
     float: right;
-    font-size: 28px;
+    font-size: 2em;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.minimize:hover,
+.minimize:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #b98e1d;
-    color: white;
+    padding: 0.1em;
+    text-align: center;
+    background-color: $primary-color;
+    color: $quaternary-color;
 }
 
-.modal-body {padding: 2px 16px;
-background-color: #730003;
-color: white;
+.modal-body {
+  padding: 1em;
+  background-color: $septenary-color; 
+  color: $quaternary-color;
 }
 
 .modal-footer {
-    padding: 2px 16px;
-    background-color: #b98e1d;
-    color: white;
+    padding: 0.1em;
+    background-color: $septenary-color;
+    color: black;
+}
+
+.modal-footer a {
+    text-decoration: none;
+    color: black;
 }
 
 #myBtn {
     position: fixed;
     float: right;
-    right: 2em;
-    bottom: 2em;
-    font-size: 24px;
-    border-radius: 8px;
+    right:0;
+    bottom: 1em;
+    font-size: 1em;
+    border-radius: 0.5em;
     background-color: #2f2f2f;
     color: white;
 }
@@ -83,3 +94,14 @@ color: white;
     from {bottom: -300px; opacity: 0}
     to {bottom: 0; opacity: 1}
 }
+
+
+
+@media screen and (min-width: 700px) {
+
+    #myBtn {
+        font-size: 1.5em;
+    }
+
+  }
+  

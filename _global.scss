@@ -1,3 +1,14 @@
+/* ==== GLOBAL ===== */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-stack;
+  background-color: $senary-color;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
 }
