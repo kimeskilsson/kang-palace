@@ -2,10 +2,7 @@
 
 main {
   section {
-    text-align: center;
     padding: 0.5em 1em;
-  } #menu {
-    background-color: $quinary-color;
   } #about {
     // background-image: url(../img/about-us-background.jpg);
     // background-size: cover;
@@ -18,8 +15,10 @@ main {
 #menu {
   background-color: $quinary-color;
   color: white;
-  padding: 5em 10em;
+  padding-bottom: 5em;
 } 
+
+
 
 
 
@@ -29,8 +28,8 @@ main {
 }
 
 .collapsible {
-  background-color: rgb(25, 39, 27);
-  color: #E0E0E0;
+  background-color: $quinary-color;
+  color: black;
   cursor: pointer;
   padding: 5px;
   width: 100%;
@@ -56,11 +55,11 @@ main {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #193021;
+  background-color: $quinary-color;
   list-style: none;
   font-size: 15px;
   font-family: 'Bree Serif', serif;
-  color: #E0E0E0;
+  color: black;
 } 
 
 ul.content {
@@ -85,13 +84,13 @@ ul.content li:before {
 
 ul.content span:first-child {
   padding-right: 0.33em;
-  background-color: #193021;
+  background-color: $quinary-color;
 }
 
 ul.content span + span {
   float: right;
   padding-left: 0.33em;
-  background-color: #193021;
+  background-color: $quinary-color;
 }
 
 
@@ -118,13 +117,19 @@ ul.content span + span {
    
  }
 
-
+#find {
+  background-color: $quinary-color;
+  padding-bottom: 3em;
+  color: white;
+  text-shadow: 1px 1px 1px $quaternary-color;
+  text-align: center;
+}
 
 #map {
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
- }
 
+ }
 
 
 
