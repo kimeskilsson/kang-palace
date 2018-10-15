@@ -406,7 +406,8 @@ main #about {
 
 #menu {
   background-color: #c6bd9e;
-  color: white; }
+  color: white;
+  padding: 5em 10em; }
 
 .menuwrapper {
   margin: 0% 15% 0% 15%; }
@@ -463,17 +464,6 @@ ul.content span + span {
   padding-left: 0.33em;
   background-color: #193021; }
 
-/* .alignleft {
-	float: left;
-}
-.alignright {
-	float: right;
-} */
-@media screen and (min-width: 600px) {
-  .menu-max-column {
-    max-width: 800px;
-    margin: auto;
-    width: 71%; } }
 #about {
   color: white;
   text-shadow: 1px 1px 1px black; }
@@ -495,6 +485,11 @@ ul.content span + span {
   width: 100%;
   /* The width is the width of the web page */ }
 
+@media screen and (min-width: 600px) {
+  .menu-max-column {
+    max-width: 800px;
+    margin: auto;
+    width: 71%; } }
 /* ==== MODAL ====*/
 /* The Modal (background) */
 .modal {
