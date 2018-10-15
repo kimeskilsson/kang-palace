@@ -457,19 +457,3 @@ header {
 @media screen and (min-width: 500px) {
   #headerlogo {
     width: 70vw; } }
-: url(../img/kangheader.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-#headerlogo {
-  position: absolute;
-  width: 100vw;
-  top: 50vh;
-  text-align: center;
-  -webkit-transform: translateY(-70%);
-          transform: translateY(-70%);
-  -webkit-filter: drop-shadow(-10px -10px 10px #000000); }
-
-@media screen and (min-width: 500px) {
-  #headerlogo {
-    width: 70vw; } }
