@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/navtoggle.js" defer></script>
   <script src="js/modal.js" defer></script>
+  <script src="js/collapse.js" defer></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   
@@ -37,29 +38,139 @@
     </div>
   </header>
   <main>
-  <div class="wrapper">
-    <section id="menu">
-      <h2>Menu</h2>
-      <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  <section id="menu">
+    <h2>Menu</h2>
 
-          Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
-          
-          Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
-    </section>
+    <div class="menuwrapper menu-max-column">
+      <button class="collapsible">SOUPS</button>
+      <ul class="content">
+         <li><span>Chicken & Mushroom Soup</span>
+            <span>$5.00</span>
+         <p class="itemdescription alignleft">A thick musty and tangy soup.</p>
+         <li><span>Chicken & Sweet Corn Soup</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">Chicken strips and fresh sweet corn.</p>
+         <li><span>Vegetable Soup</span>
+            <span>$4.00</span>
+         <p class="itemdescription alignleft">A heady broth with Crispy and flavorful vegetables.</p>
+         <li><span>Wan Ton Soup</span>
+            <span>$6.00</span>
+         <p class="itemdescription alignleft">Traditional Wan ton soup.</p>
+      </ul>
+
+      <button class="collapsible">SZECHUAN</button>
+      <ul class="content">
+         <li><span>House Special Szechuan</span>
+            <span>$10.00</span>
+         <p class="itemdescription alignleft">Our chef´s unique recipe - very spicy with a strong ginger falvor.</p>
+         <li><span>King Prawn Szwechunan</span>
+            <span>$12.00</span>
+         <p class="itemdescription alignleft">Succulent King prawns mixed with the distinctive Shaoxing wine.</p>
+         <li><span>Chicken Szechuan</span>
+            <span>$8.00</span>
+         <p class="itemdescription alignleft">Chicken with a healthy mix of our red and green peppers.</p>
+         <li><span>Beef Szechuan</span>
+            <span>$9.00</span>
+         <p class="itemdescription alignleft">American beef meets Chinese cooking.</p>
+         <li><span>Fillet Steak Szechuan</span>
+            <span>$14.00</span>
+         <p class="itemdescription alignleft">Our finest fillet steak and our hottest spicemix.</p>
+      </ul>
+
+      <button class="collapsible">CHICKEN DISHES</button>
+      <ul class="content">
+         <li><span>Chicken With Mushrooms</span>
+            <span>$7.00</span>
+         <p class="itemdescription alignleft">Our selection of mushrooms make the perfect compliment to a classic chicken-dish.</p>
+         <li><span>Chicken and Mushrooms in Black Bean Sauce</span>
+            <span>$8.00</span>
+         <p class="itemdescription alignleft">A more savory than spicy sauce.</p>
+         <li><span>Chicken and Green Peppers in Black Bean Sauce</span>
+            <span>$8.00</span>
+         <p class="itemdescription alignleft">Green peppers and Black bean sauce make this dish both strong and savory.</p>
+         <li><span>Chicken With Cashew Nuts</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">a milder dish with the nutty taste of Cashew.</p>
+         <li><span>Kung Po Chicken</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">Very strong dish filled with all of the flavors that exemplify chinese cooking.</p>
+         <li><span>Chicken with Bamboo Shoots & Water Chestnuts</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">Tender chicken with frech bamboo shoots and crunchy water chesnuts.</p>
+         <li><span>Crispy Chicken Pineapple in Plum Sauce</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">The savory plum sauce in contrast with the pineapple makes for a unique taste-experience.</p>
+         <li><span>Crispy Chicken Pineapple in Lemon Sauce</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">A both sweet and sour dish.</p>
+         <li><span>Crispy Chicken Pineapple in Orange Sauce</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">very sweet and very spicy.</p>
+         <li><span>Crispy Chicken Pineapple in Sweet & Sour Sause</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">Traditional sweet and sour sauce dish.</p>  
+      </ul>
+
+      <button class="collapsible">CURRY DISHES</button>
+      <ul class="content">
+         <li><span>House Special Curry</span>
+            <span>$10.00</span>
+         <p class="itemdescription alignleft">Our blend of coriander and ginger makes this curry dish a treat for the senses.</p>
+         <li><span>King Prawn Curry</span>
+            <span>$9.50</span>
+         <p class="itemdescription alignleft">a curry dish with heavy coriander and chilli flavors.</p>
+         <li><span>Shrimp Curry</span>
+            <span>$9.00</span>
+         <p class="itemdescription alignleft">Ample amounts of chinese rice wine makes this shrimp curry strong and flavorful.</p>
+         <li><span>Chicken Curry</span>
+            <span>$7.50</span>
+         <p class="itemdescription alignleft">Medium spice strength.</p>
+         <li><span>Beef Curry</span>
+            <span>$7.50</span>
+         <p class="itemdescription alignleft">Higher spice strength.</p>
+         <li><span>Vegetable Curry</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">very frech vegetables makes this vegetable curry just as tasty as .</p>  
+      </ul>
+
+      <button class="collapsible">BEVERAGES</button>
+      <ul class="content">
+         <li><span>Baijiu</span>
+            <span>$4.00</span>
+         <p class="itemdescription alignleft">A distinctly savory spirit.</p>
+         <li><span>HuangJiu</span>
+            <span>$4.00</span>
+         <p class="itemdescription alignleft">Sweet or dry.</p>
+         <li><span>Paojiu</span>
+            <span>$2.00</span>
+         <p class="itemdescription alignleft">an aquired taste.</p>
+         <li><span>sour plum juice</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">a tart plumb juice.</p>
+         <li><span>Green tea</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">Traditional green tea.</p>
+         <li><span>Sinkiang black beer</span>
+            <span>$5.50</span>
+         <p class="itemdescription alignleft">malt beer with a malted flavor.</p>  
+      </ul>
+   </div>
+  </section>
+  <section id="about">
+    <div class="parallax-about">
+      <h2>About us</h2>
+      <div id="about-div"><p>Kang Palace is an old fashioned restaurant with a history that goes back as far as the early 1900. By bringing the best chefs from China over to America and paying them more than well, we insured a good and strong foundation to stand on. <br>
+      We are proud to say that we still ensure to have the best quality ingredients and the best chefs at our disposal, making it possible to bring the best and nothing else to our customers. <br> <br>
+      So if you ever plan a visit to San Francisco and want to visit Kang Palace. Be sure to make a reservation in good time.
+        </p></div> <!-- /about -->
+    </div> <!-- /parallax -->
+  
+  <section id="find">
+    <h2>Find us</h2>
+    <div id="map"> </div> <!-- /map -->
+  </section>
+
     
-    <section id="about">
-      <div class="parallax-about">
-        <h2>About us</h2>
-        <div id="about-div"><p>Kang Palace is an old fashioned restaurant with a history that goes back as far as the early 1900. By bringing the best chefs from China over to America and paying them more than well, we insured a good and strong foundation to stand on. <br>
-        We are proud to say that we still ensure to have the best quality ingredients and the best chefs at our disposal, making it possible to bring the best and nothing else to our customers. <br> <br>
-        So if you ever plan a visit to San Francisco and want to visit Kang Palace. Be sure to make a reservation in good time.
-          </p></div> <!-- /about -->
-      </div> <!-- /parallax -->
-    </section>
-    <section id="find">
-      <h2>Find us</h2>
-      <div id="map"> </div> <!-- /map -->
-    </section>
         
 
         
