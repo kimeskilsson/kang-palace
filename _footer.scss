@@ -1,11 +1,11 @@
 /* === FOOTER === */
 
-#footer {
-  padding: 5em;
-  background-color: $tertiary-color;
-} p {
-  text-align: center;
-  color: $septenary-color;
+
+
+.container-footer {
+  display: grid;
+/* grid-template-areas: ; */
+  color: white;
 }
 
 .fa-instagram{
@@ -17,6 +17,31 @@
 }
 
 .socials {
-  float: right;
   font-size: 2em;
+  text-align: center;
+}
+
+#footer {
+  padding: 5em;
+  background-color: $tertiary-color;
+} 
+
+
+#footer-text{
+  text-align: center;
+  color: white;
+}
+
+.address {
+  float: left;
+  display: inline-block;
+  text-align: justify;
+  max-width: 110px;
+  color: white;
+  margin: 0;
+
+}
+
+.address a {
+  color: white;
 }

@@ -23,7 +23,7 @@
       <li><a href="#menu">Menu </a> </li>
       <li><a href="#about">About Us </a> </li>
       <li><a href="#find">Find Us</a> </li>
-      <li><a href="#contact">Contact</a> </li>
+      <li><a href="#footer">Contact</a> </li>
       <li><a href="javascript:void(0);" id="menu-icon" onclick="navToggle()"><i class="material-icons">menu</i></a></li>   
   </div> <!-- /nav-items-->
    </ul>
@@ -50,10 +50,10 @@
     <section id="about">
       <div class="parallax-about">
         <h2>About us</h2>
-        <p>Kang Palace is an old fashioned restaurant with a history that goes back as far as the early 1900. During the prohibition era there was a few places that still served alcohol and Kang Palace was one of them. Of course it was under the table, but nonetheless it was a very appreciated restaurant. By bringing the best chefs from China over to America and paying them more than well, we insured a good and strong foundation to stand on. 
-          Since then it has only gotten better. By growing the restaurant slowly and making sure that everything is authentic and nigh perfect we are one of the most visited restaurant in the US. We are proud to say that we still ensure to have the best quality ingredients and the best chefs at our disposal, making it possible to bring the best and nothing else to our customers.
-          So if you are ever planning a Visit to San Francisco and want to visit Kang Palace. Be sure to make a reservation in good time.
-          </p>
+        <div id="about-div"><p>Kang Palace is an old fashioned restaurant with a history that goes back as far as the early 1900. By bringing the best chefs from China over to America and paying them more than well, we insured a good and strong foundation to stand on. <br>
+        We are proud to say that we still ensure to have the best quality ingredients and the best chefs at our disposal, making it possible to bring the best and nothing else to our customers. <br> <br>
+        So if you ever plan a visit to San Francisco and want to visit Kang Palace. Be sure to make a reservation in good time.
+          </p></div> <!-- /about -->
       </div> <!-- /parallax -->
     </section>
     <section id="find">
@@ -68,15 +68,25 @@
   </main>
   <footer id="footer">
   <div class="wrapper">
+  
+     <div id="container-footer">
+       <div class="footer-copy">
+    
+        <i class="fab fa-facebook-square"></i>
+        <a href="https://www.instagram.com/kangpalace/" target="_blank">
+        <i class="fab fa-instagram"></i>
+        </a>
+      </div> <!-- /footer-copy -->
+        
 
-    <p>Copyright &copy; Kang Palace</p>
+    <div class="footer-address"><p>Grant Ave And Bush S</p>
+        <p>San Francisco, CA 94108</p>
+        <p>Chinatown</p>
+        <p>Book a table:
+          Phonenumber <a href=tel:555-54932>555-54932</a></p>
+    </div> <!-- /footer-address -->
 
-    <div class="socials">
-    <i class="fab fa-facebook-square"></i>
-    <a href="https://www.instagram.com/kangpalace/" target="_blank">
-    <i class="fab fa-instagram"></i>
-    </a>
-    </div>
+        </div> <!-- /container-footer -->
 
 
 <!-- Trigger/Open The Modal -->
@@ -96,7 +106,7 @@
 Name:<br>
 <input type="text" placeholder="Name"><br>
 Email: <br> 
-<input type="text" placeholder="Example@altavista.com"><br>
+<input type="text" placeholder="example@whodat.com"><br>
 Phone number: <br> 
 <input type="text" placeholder="Ex. 555-2257"><br>
 Message: <br>
@@ -105,16 +115,19 @@ Message: <br>
 <br>
 <input type="submit"><br>
 </form>      
-</div> <!-- /modal-body-->
-<div class="modal-footer">
 <p>Need to call us?</p>
-<p>Phone 555-54932<p>
-</div> <!-- /modal-footer-->
+<p>Phone <a href=tel:555-54932>555-54932</a>
+</p>
+  </div> <!-- /modal-body-->
 </div> <!-- /modal-content-->
 
 </div> <!-- /myModal-->
 
+<p id="footer-text" >Copyright &copy; Kang Palace  <br> 
+</p>    
+
 </div> <!-- /wrapper-->
+
   </footer>
 
   <script>

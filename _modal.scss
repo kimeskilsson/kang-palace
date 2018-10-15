@@ -5,26 +5,30 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    right: 0;
+    right: 0em;
     width: 50%; /* Full width */
     overflow: auto; /* Enable scroll if needed */
     -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+
 }
 
 /* Modal Content */
 .modal-content {
     position: fixed;
     bottom: 3em;
-    right: 0;
+    right: 1em;
     background-color: #fefefe;
     width: 50vw;
     max-width: 250px;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px
     
 }
 
@@ -59,7 +63,12 @@
 .modal-footer {
     padding: 0.1em;
     background-color: $septenary-color;
-    color: $quaternary-color;
+    color: black;
+}
+
+.modal-footer a {
+    text-decoration: none;
+    color: black;
 }
 
 #myBtn {
