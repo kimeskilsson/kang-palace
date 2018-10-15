@@ -16,12 +16,12 @@ nav {
       a {
         display: inline-block;
         padding: 1em;
-        color: $primary-color;
-        text-shadow: 0.5px 0.5px 0px $quinary-color;
+        color: $senary-color;
+        // text-shadow: 0.5px 0.5px 0px $senary-color;
         text-decoration: none;
         display: none;
       } & :hover {
-        background-color: $senary-color;
+        background-color: $primary-color;
         font-weight: bold;
       }
     }

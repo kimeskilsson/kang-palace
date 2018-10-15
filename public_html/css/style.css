@@ -35,7 +35,8 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -69,7 +70,8 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */ }
 
 /**
@@ -201,7 +203,8 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -232,7 +235,8 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -327,12 +331,11 @@ nav {
       nav ul li a {
         display: inline-block;
         padding: 1em;
-        color: #730003;
-        text-shadow: 0.5px 0.5px 0px #c6bd9e;
+        color: #dfdfdf;
         text-decoration: none;
         display: none; }
       nav ul li :hover {
-        background-color: #dfdfdf;
+        background-color: #730003;
         font-weight: bold; }
 
 .dont-hide {
@@ -362,6 +365,8 @@ nav {
     display: inline-block; }
 
   .topnav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -499,7 +504,8 @@ ul.content span + span {
   overflow: auto;
   /* Enable scroll if needed */
   -webkit-animation-duration: 0.4s;
-  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
   animation-duration: 0.4s; }
 
 /* Modal Content */
