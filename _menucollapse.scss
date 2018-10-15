@@ -1,26 +1,3 @@
-/* === MAIN === */
-
-main {
-  section {
-    text-align: center;
-    padding: 0.5em 1em;
-  } #menu {
-    background-color: $quinary-color;
-  } #about {
-    // background-image: url(../img/about-us-background.jpg);
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    color: white;
-    text-shadow: 1px 1px 1px $quaternary-color;
-  }
-}
-
-#menu {
-  background-color: $quinary-color;
-  color: white;
-} 
-
-
 
 
 .menuwrapper {
@@ -115,32 +92,3 @@ ul.content span + span {
     width: 71%;
   }
 } 
-
-#about {
-
-  // background-image: url(../img/about-us-background.jpg);
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-}
-
-.parallax-about {
-  background-image: url(../img/about-us-background.jpg);
-  height: 50vh; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-
- #about-div p {
-   text-align: justify;
-   
- }
-
-#map {
-  height: 400px;  /* The height is 400 pixels */
-  width: 100%;  /* The width is the width of the web page */
- }
-
