@@ -406,8 +406,7 @@ main #about {
 
 #menu {
   background-color: #c6bd9e;
-  color: white;
-  padding: 5em 10em; }
+  color: white; }
 
 .menuwrapper {
   margin: 0% 15% 0% 15%; }
@@ -416,17 +415,17 @@ main #about {
   background-color: #19271b;
   color: #E0E0E0;
   cursor: pointer;
-  padding: 5px;
+  padding: 0.5em;
   width: 100%;
   border: none;
   text-align: center;
   outline: none;
-  font-size: 15px;
+  font-size: 1em;
   font-family: 'Bree Serif', serif; }
 
 .itemdescription {
   max-width: 500px;
-  font-size: 12px;
+  font-size: 0.8em;
   font-family: 'Bree Serif', serif;
   -webkit-transform: translateY(-0.6em);
           transform: translateY(-0.6em); }
@@ -440,7 +439,7 @@ main #about {
   overflow: hidden;
   background-color: #193021;
   list-style: none;
-  font-size: 15px;
+  font-size: 0.5em;
   font-family: 'Bree Serif', serif;
   color: #E0E0E0; }
 
@@ -464,6 +463,12 @@ ul.content span + span {
   padding-left: 0.33em;
   background-color: #193021; }
 
+/* .alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+} */
 #about {
   color: white;
   text-shadow: 1px 1px 1px black; }
