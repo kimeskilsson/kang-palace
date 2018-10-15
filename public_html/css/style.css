@@ -307,7 +307,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Bree Serif", serif, sans-serif; }
+  font-family: "Bree Serif", serif, sans-serif;
+  background-color: #dfdfdf; }
 
 .wrapper {
   max-width: 960px;
@@ -335,7 +336,7 @@ nav {
         text-decoration: none;
         display: none; }
       nav ul li :hover {
-        background-color: #e5e5e5;
+        background-color: #dfdfdf;
         font-weight: bold; }
 
 .dont-hide {
@@ -391,7 +392,8 @@ nav {
 
 @media screen and (min-width: 500px) {
   #headerlogo {
-    width: 70vw; } }
+    width: 70vw;
+    top: 35vh; } }
 /* === MAIN === */
 main section {
   text-align: center;
@@ -400,7 +402,7 @@ main #menu {
   background-color: #c6bd9e; }
 main #about {
   color: white;
-  text-shadow: 1px 1px 1px black; }
+  text-shadow: 1px 1px 1px #000000; }
 
 #map {
   height: 400px;
@@ -450,7 +452,7 @@ main #about {
 
 /* The minimize Button */
 .minimize {
-  color: #e5e5e5;
+  color: #dfdfdf;
   float: right;
   font-size: 2em;
   font-weight: bold; }
