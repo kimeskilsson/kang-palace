@@ -13,14 +13,17 @@ main {
 }
 
 #menu {
-  background-color: $quinary-color;
+  // background-color: $quinary-color;
   color: white;
   padding-bottom: 5em;
 } 
 
 
 
-
+.fa-plus {
+  float: right;
+  font-size: 0.5em;
+}
 
 
 .menuwrapper {
@@ -31,12 +34,15 @@ main {
   background-color: $quinary-color;
   color: black;
   cursor: pointer;
-  padding: 5px;
+  padding: 0.4em;
   width: 100%;
-  border: none;
+  border-radius: 1em;
+  border-width: 0.2em;
+  border-color: $tertiary-color;
+  border-style: solid;
   text-align: center;
   outline: none;
-  font-size: 15px;
+  font-size: 1em;
   font-family: 'Bree Serif', serif;
 }
 
@@ -106,7 +112,7 @@ ul.content span + span {
 
 .parallax-about {
   background-image: url(../img/about-us-background.jpg);
-  min-height: 50vh; 
+  min-height: 70vh; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -134,7 +140,7 @@ ul.content span + span {
  }
 
 #find {
-  background-color: $quinary-color;
+  // background-color: $quinary-color;
   padding-bottom: 3em;
   color: white;
   text-shadow: 1px 1px 1px $quaternary-color;

@@ -3,7 +3,7 @@
 .parallax-header { 
 
   background-image: url(../img/kangheader.jpg);
-  height: 70vh; 
+  min-height: 80vh; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,12 +13,14 @@
 
 #headerlogo {
   position: absolute;
-  width: 100vw;
-  top: 50vh;
-  text-align: center;
-  transform: translateY(-70%);
-  -webkit-filter: drop-shadow(-10px -10px 10px $quaternary-color);
-  font-size: 5em;
+  width: 95vw;
+  top: 40vh;
+  transform: translateY(-62%);
+  -webkit-filter: drop-shadow(-10px -10px 10px 
+  $quaternary-color);
+  filter: drop-shadow(-10px -10px 10px 
+  $quaternary-color);
+  max-width: 100vw;
 }
 
 header p {
@@ -33,32 +35,41 @@ header p {
   font-style: italic;
   text-shadow: 0.5px 0.5px 0px $quaternary-color;
 }
-
 @media screen and (min-width: 450px) {
+
+  // #headerlogo {
+  //   width: 70vw;
+  // }
 
   header p {
     font-size: 1em;
+     width: 95vw;
   }
 }
-@media screen and (min-width: 500px) {
 
-  // #headerlogo {
-  // width: 70vw;
-  // top: 55vh;
-  // }
-  header p {
-    font-size: 1.5em;
-  }
-}
 
 @media screen and (min-width: 300px) {
-
-  // #headerlogo {
-  // width: 70vw;
-  // top: 55vh;
-  // }
+   #headerlogo {
+    width: 50vw;
+    top: 30vh;
+    // transform: translateY(60%);
+    transform: translateX(40%);
+    }
   header p {
     font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #headerlogo {
+    width: 50vw;
+    top: 20vh;
+    // transform: translateY(60%);
+    transform: translateX(40%);
+    }
+
+  header p {
+    font-size: 1.1em;
   }
 }
 
@@ -66,8 +77,10 @@ header p {
 @media screen and (min-width: 800px) {
 
   #headerlogo {
-  width: 70vw;
-  top: 55vh;
+  width: 43vw;
+  top: 10vh;
+  // transform: translateY(60%);
+  transform: translateX(40%);
   }
   header p {
     font-size: 1.5em;
