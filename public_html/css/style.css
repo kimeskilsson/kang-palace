@@ -308,7 +308,7 @@ html {
 
 body {
   font-family: "Bree Serif", serif, sans-serif;
-  background-color: #dfdfdf; }
+  background-color: #ffffff; }
 
 .wrapper {
   max-width: 960px;
@@ -331,7 +331,7 @@ nav {
       nav ul li a {
         display: inline-block;
         padding: 1em;
-        color: #dfdfdf;
+        color: #ffffff;
         text-decoration: none;
         display: none; }
       nav ul li :hover {
@@ -395,10 +395,7 @@ nav {
     top: 35vh; } }
 /* === MAIN === */
 main section {
-  text-align: center;
   padding: 0.5em 1em; }
-main #menu {
-  background-color: #c6bd9e; }
 main #about {
   color: white;
   text-shadow: 1px 1px 1px #000000; }
@@ -406,14 +403,14 @@ main #about {
 #menu {
   background-color: #c6bd9e;
   color: white;
-  padding: 5em 10em; }
+  padding-bottom: 5em; }
 
 .menuwrapper {
   margin: 0% 15% 0% 15%; }
 
 .collapsible {
-  background-color: #19271b;
-  color: #E0E0E0;
+  background-color: #c6bd9e;
+  color: black;
   cursor: pointer;
   padding: 5px;
   width: 100%;
@@ -437,11 +434,11 @@ main #about {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #193021;
+  background-color: #c6bd9e;
   list-style: none;
   font-size: 15px;
   font-family: 'Bree Serif', serif;
-  color: #E0E0E0; }
+  color: black; }
 
 ul.content {
   padding: 0;
@@ -456,12 +453,12 @@ ul.content li:before {
 
 ul.content span:first-child {
   padding-right: 0.33em;
-  background-color: #193021; }
+  background-color: #c6bd9e; }
 
 ul.content span + span {
   float: right;
   padding-left: 0.33em;
-  background-color: #193021; }
+  background-color: #c6bd9e; }
 
 #about {
   color: white;
@@ -487,6 +484,13 @@ ul.content span + span {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 0em 1em !important;
   display: inline-block; }
+
+#find {
+  background-color: #c6bd9e;
+  padding-bottom: 3em;
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+  text-align: center; }
 
 #map {
   height: 400px;
@@ -539,7 +543,7 @@ ul.content span + span {
 
 /* The minimize Button */
 .minimize {
-  color: #dfdfdf;
+  color: #182f1f;
   float: right;
   font-size: 2em;
   font-weight: bold; }
