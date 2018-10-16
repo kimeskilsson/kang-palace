@@ -644,7 +644,7 @@ ul.content span + span {
   background-color: #2f2f2f;
   font-family: "Bree Serif", serif, sans-serif; }
 
-#footer-text {
+.footer-text {
   text-align: center;
   color: white; }
 
@@ -658,6 +658,25 @@ ul.content span + span {
 
 .address a {
   color: white; }
+
+.footer-open {
+  grid-area: open;
+  text-align: left; }
+
+.footer-monthu {
+  grid-area: monthu; }
+
+.footer-fri {
+  grid-area: fri; }
+
+.footer-satsun {
+  grid-area: satsun; }
+
+.container-hours {
+  display: grid;
+  grid-template-areas: 'monthu' 'fri' 'satsun';
+  color: white;
+  grid-gap: 2em; }
 
 .footer-social {
   grid-area: social;
@@ -679,4 +698,10 @@ ul.content span + span {
 
 @media screen and (min-width: 500px) {
   .container-footer {
-    grid-template-areas: 'address form social'; } }
+    grid-template-areas: 'address form social'; }
+
+  .container-hours {
+    grid-template-areas: 'monthu fri satsun'; }
+
+  .footer-open {
+    text-align: center; } }
