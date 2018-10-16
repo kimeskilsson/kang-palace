@@ -66,7 +66,6 @@
 
 .footer-social {
   grid-area: social;
-  text-align: center;
   font-size: 3em;
   margin-top: 1em;
  
@@ -106,5 +105,13 @@
   #footer-open {
     text-align: center;
    
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .footer-social {
+    text-align: center;
   }
 }
