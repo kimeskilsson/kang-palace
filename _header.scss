@@ -18,15 +18,59 @@
   text-align: center;
   transform: translateY(-70%);
   -webkit-filter: drop-shadow(-10px -10px 10px $quaternary-color);
+  font-size: 5em;
 }
 
+header p {
+  position: absolute;
+  font-size: 1em;
+  color: $septenary-color;
+  width: 100vw;
+  top: 50vh;
+  text-align: center;
+  transform: translateY(-70%);
+  font-family: $font-pile;
+  font-style: italic;
+  text-shadow: 0.5px 0.5px 0px $quaternary-color;
+}
+
+@media screen and (min-width: 450px) {
+
+  header p {
+    font-size: 1em;
+  }
+}
 @media screen and (min-width: 500px) {
 
-  #headerlogo {
-  width: 70vw;
-  top: 35vh;
+  // #headerlogo {
+  // width: 70vw;
+  // top: 55vh;
+  // }
+  header p {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 300px) {
+
+  // #headerlogo {
+  // width: 70vw;
+  // top: 55vh;
+  // }
+  header p {
+    font-size: 0.9em;
   }
 }
 
 
+@media screen and (min-width: 800px) {
+
+  #headerlogo {
+  width: 70vw;
+  top: 55vh;
+  }
+  header p {
+    font-size: 1.5em;
+  }
+}
 

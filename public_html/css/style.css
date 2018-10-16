@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Courgette");
 html {
   line-height: 1.15;
   /* 1 */
@@ -307,7 +307,6 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Bree Serif", serif, sans-serif;
   background-color: #ffffff; }
 
 .wrapper {
@@ -387,12 +386,38 @@ nav {
   text-align: center;
   -webkit-transform: translateY(-70%);
           transform: translateY(-70%);
-  -webkit-filter: drop-shadow(-10px -10px 10px #000000); }
+  -webkit-filter: drop-shadow(-10px -10px 10px #000000);
+  font-size: 5em; }
 
+header p {
+  position: absolute;
+  font-size: 1em;
+  color: #ffffff;
+  width: 100vw;
+  top: 50vh;
+  text-align: center;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+  font-family: "Courgette", cursive;
+  font-style: italic;
+  text-shadow: 0.5px 0.5px 0px #000000; }
+
+@media screen and (min-width: 450px) {
+  header p {
+    font-size: 1em; } }
 @media screen and (min-width: 500px) {
+  header p {
+    font-size: 1.5em; } }
+@media screen and (min-width: 300px) {
+  header p {
+    font-size: 0.9em; } }
+@media screen and (min-width: 800px) {
   #headerlogo {
     width: 70vw;
-    top: 35vh; } }
+    top: 55vh; }
+
+  header p {
+    font-size: 1.5em; } }
 /* === MAIN === */
 main section {
   padding: 0.5em 1em; }
@@ -462,7 +487,8 @@ ul.content span + span {
 
 #about {
   color: white;
-  text-shadow: 1px 1px 1px black; }
+  text-shadow: 1px 1px 1px black;
+  font-family: "Bree Serif", serif, sans-serif; }
 
 .parallax-about {
   background-image: url(../img/about-us-background.jpg);
@@ -490,7 +516,8 @@ ul.content span + span {
   padding-bottom: 3em;
   color: white;
   text-shadow: 1px 1px 1px #000000;
-  text-align: center; }
+  text-align: center;
+  font-family: "Bree Serif", serif, sans-serif; }
 
 #map {
   height: 400px;
@@ -614,7 +641,8 @@ ul.content span + span {
 
 #footer {
   padding: 5em;
-  background-color: #2f2f2f; }
+  background-color: #2f2f2f;
+  font-family: "Bree Serif", serif, sans-serif; }
 
 #footer-text {
   text-align: center;

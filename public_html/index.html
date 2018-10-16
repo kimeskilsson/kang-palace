@@ -9,6 +9,10 @@
   <script src="js/navtoggle.js" defer></script>
   <script src="js/modal.js" defer></script>
   <script src="js/collapse.js" defer></script>
+  <script src="js/map.js" defer></script>
+  <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6KcUj6IBotxM_omL3w1SNNowj5ZGOZb4&callback=initMap">
+</script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   
@@ -34,6 +38,7 @@
   <header> 
     <div class="parallax-header">
     <img src="img/kplogo01.svg" alt="the kang palace logotype" id="headerlogo">
+    <p>Bringing the spice of south-east china to the bay area.</p>
     <!-- <h1>Kang Palace </h1> -->
     </div>
   </header>
@@ -257,18 +262,6 @@
 </div> <!-- /wrapper-->
 
   </footer>
-
-  <script>
-  // Initialize and add the map
-      function initMap() {
-        // The location of chinatown
-        var chinatown = {lat: 37.794671, lng: -122.405683}
-        // The map, centered at chinatown
-        var map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 15, center: chinatown});
-        // The marker, positioned at chinatown
-        var marker = new google.maps.Marker({position: chinatown, map: map});
-      }</script>
 
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6KcUj6IBotxM_omL3w1SNNowj5ZGOZb4&callback=initMap">
