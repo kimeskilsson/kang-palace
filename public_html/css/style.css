@@ -490,7 +490,8 @@ ul.content span + span {
   text-align: center;
   color: white;
   text-shadow: 1px 1px 1px black;
-  font-family: "Bree Serif", serif, sans-serif; }
+  font-family: "Bree Serif", serif, sans-serif;
+  max-width: 960px; }
 
 .parallax-about {
   background-image: url(../img/about-us-background.jpg);
@@ -503,7 +504,8 @@ ul.content span + span {
 #about-div p {
   text-align: justify;
   margin: 0.5em;
-  padding: 0; }
+  padding: 0;
+  max-width: 500px; }
 
 #about-div h2 {
   text-align: center; }
@@ -587,7 +589,7 @@ ul.content span + span {
   padding: 0.1em;
   text-align: center;
   background-color: #730003;
-  color: #000000; }
+  color: #ffffff; }
 
 .modal-body {
   padding: 1em;
