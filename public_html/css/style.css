@@ -616,7 +616,10 @@ ul.content span + span {
   padding: 5em;
   background-color: #2f2f2f; }
 
-.footer-text {
+#footer-open {
+  text-align: left; }
+
+#footer-text {
   text-align: center;
   color: white; }
 
@@ -630,10 +633,6 @@ ul.content span + span {
 
 .address a {
   color: white; }
-
-.footer-open {
-  grid-area: open;
-  text-align: left; }
 
 .footer-monthu {
   grid-area: monthu; }
@@ -675,5 +674,5 @@ ul.content span + span {
   .container-hours {
     grid-template-areas: 'monthu fri satsun'; }
 
-  .footer-open {
+  #footer-open {
     text-align: center; } }

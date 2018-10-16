@@ -20,8 +20,12 @@
   background-color: $tertiary-color;
 } 
 
+#footer-open {
 
-.footer-text{
+  text-align: left;
+}
+
+#footer-text{
   text-align: center;
   color: white;
 }
@@ -40,12 +44,6 @@
   color: white;
 }
 
-
-
-.footer-open {
-  grid-area: open;
-  text-align: left;
-}
 
 .footer-monthu {
   grid-area: monthu;
@@ -111,7 +109,7 @@
       'monthu fri satsun';
   }
 
-  .footer-open {
+  #footer-open {
     text-align: center;
   }
 }
