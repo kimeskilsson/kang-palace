@@ -101,7 +101,7 @@ ul.content span + span {
   // background-repeat: no-repeat;
   color: white;
   text-shadow: 1px 1px 1px black;
-  
+  font-family: $font-stack;
 }
 
 
@@ -140,6 +140,7 @@ ul.content span + span {
   color: white;
   text-shadow: 1px 1px 1px $quaternary-color;
   text-align: center;
+  font-family: $font-stack;
 }
 
 #map {
