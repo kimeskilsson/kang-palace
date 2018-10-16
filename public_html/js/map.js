@@ -1,11 +1,11 @@
 
-// Initialize and add the map
+// adds the map 
     function initMap() {
-      // The location of chinatown
+      // variable with location of chinatown
       var chinatown = {lat: 37.794671, lng: -122.405683}
-      //center chinatown on map
+      //center chinatown on google maps
       var map = new google.maps.Map(
           document.getElementById('map'), {zoom: 15, center: chinatown});
-      // The marker
+      // puts the marker on chinatown!
       var marker = new google.maps.Marker({position: chinatown, map: map});
     }

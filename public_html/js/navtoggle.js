@@ -1,8 +1,8 @@
 function navToggle() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-      x.className += " dropped";
+  var nav = document.getElementById("myTopnav");
+  if (nav.className === "topnav") {
+      nav.className += " dropped";
   } else {
-      x.className = "topnav";
+      nav.className = "topnav";
   }
 }

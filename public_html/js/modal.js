@@ -1,18 +1,18 @@
-// Get the modal
+// gets the modal
 var modal = document.getElementById('myModal');
         
-// Get the button that opens the modal
+// button that opens modal
 var btn = document.getElementById("myBtn");
 
-// Get the <span> element that minimizes the modal
+// Gets the element that minimizes the modal
 var span = document.getElementsByClassName("minimize")[0];
 
-// When the user clicks the button, open the modal 
+// opens the modal when you click!
 btn.onclick = function() {
     modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// when user clicks on minimize, closes the modal
 span.onclick = function() {
     modal.style.display = "none";
 }
