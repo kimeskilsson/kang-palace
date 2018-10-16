@@ -1,9 +1,4 @@
 /* === FOOTER === */
-
-
-
-
-
 .fa-instagram{
   color: $septenary-color;
   margin-left: 1em;
@@ -11,7 +6,7 @@
 
 .fa-facebook-square {
   color: $septenary-color;
-}
+ }
 
 
 
@@ -22,28 +17,27 @@
 } 
 
 #footer-open {
-  color: white;
+  color: $septenary-color;
   text-align: left;
   font-size: 2em;
 }
 
 #footer-text{
   text-align: center;
-  color: white;
+  color: $septenary-color;
 }
 
 .address {
-  float: left;
   display: inline-block;
   text-align: justify;
   max-width: 110px;
-  color: white;
+  color: $septenary-color;
   margin: 0;
 
 }
 
 .address a {
-  color: white;
+  color: $septenary-color;
 }
 
 
@@ -65,7 +59,7 @@
   'monthu'
   'fri'
   'satsun';
-  color: white;
+  color: $septenary-color;
   grid-gap: 2em;
 }
 
@@ -93,7 +87,7 @@
   'form'
   'address'
   'social';
-  color: white;
+  color: $septenary-color;
   grid-gap: 2em;
 }
 

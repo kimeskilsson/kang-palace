@@ -37,9 +37,6 @@ header p {
 }
 @media screen and (min-width: 450px) {
 
-  // #headerlogo {
-  //   width: 70vw;
-  // }
 
   header p {
     font-size: 1em;
@@ -52,11 +49,10 @@ header p {
    #headerlogo {
     width: 50vw;
     top: 30vh;
-    // transform: translateY(60%);
     transform: translateX(40%);
     }
   header p {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 }
 
@@ -64,7 +60,6 @@ header p {
   #headerlogo {
     width: 50vw;
     top: 20vh;
-    // transform: translateY(60%);
     transform: translateX(40%);
     }
 
@@ -79,7 +74,6 @@ header p {
   #headerlogo {
   width: 43vw;
   top: 10vh;
-  // transform: translateY(60%);
   transform: translateX(40%);
   }
   header p {

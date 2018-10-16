@@ -415,7 +415,7 @@ header p {
             transform: translateX(40%); }
 
   header p {
-    font-size: 0.9em; } }
+    font-size: 1em; } }
 @media screen and (min-width: 500px) {
   #headerlogo {
     width: 50vw;
@@ -438,12 +438,13 @@ header p {
 main section {
   padding: 0.5em 1em; }
 main #about {
-  color: white;
+  color: #ffffff;
   text-shadow: 1px 1px 1px #000000; }
 
 #menu {
-  color: white;
-  padding-bottom: 5em; }
+  color: #ffffff;
+  padding-bottom: 5em;
+  padding-top: 3em; }
 
 #menu h2 {
   text-align: center;
@@ -458,7 +459,7 @@ main #about {
 
 .collapsible {
   background-color: #730003;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
   padding: 0.4em;
   width: 100%;
@@ -489,7 +490,7 @@ main #about {
   list-style: none;
   font-size: 15px;
   font-family: "Bree Serif", serif, sans-serif;
-  color: white; }
+  color: #ffffff; }
 
 ul.content {
   padding: 0;
@@ -514,9 +515,9 @@ ul.content span + span {
 #about {
   text-align: center;
   color: #ffffff;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #000000;
   font-family: "Bree Serif", serif, sans-serif;
-  max-width: 960px; }
+  padding-top: 3em; }
 
 .parallax-about {
   background-image: url(../img/about-us-background.jpg);
@@ -543,18 +544,17 @@ ul.content span + span {
 
 #find {
   padding-bottom: 3em;
-  color: white;
+  color: #ffffff;
   text-align: center;
-  font-family: "Bree Serif", serif, sans-serif; }
+  font-family: "Bree Serif", serif, sans-serif;
+  padding-top: 3em; }
 
 #find h2 {
   font-family: "Courgette", cursive; }
 
 #map {
   height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */ }
+  width: 100%; }
 
 @media screen and (min-width: 600px) {
   .menu-max-column {
@@ -587,10 +587,10 @@ ul.content span + span {
 .modal-content {
   position: fixed;
   bottom: 3em;
-  right: 1em;
-  background-color: #fefefe;
+  right: 0em;
+  background-color: #ffffff;
   width: 55vw;
-  max-width: 250px;
+  max-width: 300px;
   -webkit-animation-name: slideIn;
   -webkit-animation-duration: 0.4s;
   animation-name: slideIn;
@@ -601,14 +601,14 @@ ul.content span + span {
 
 /* The minimize Button */
 .minimize {
-  color: #182f1f;
+  color: #ffffff;
   float: right;
   font-size: 2em;
   font-weight: bold; }
 
 .minimize:hover,
 .minimize:focus {
-  color: #000;
+  color: #000000;
   text-decoration: none;
   cursor: pointer; }
 
@@ -623,26 +623,27 @@ ul.content span + span {
   background-color: #ffffff;
   color: #000000;
   border-style: solid;
-  border-width: 1px; }
+  border-width: 0.01em; }
 
 .modal-footer {
   padding: 0.1em;
   background-color: #ffffff;
-  color: black; }
+  color: #000000; }
 
 .modal-footer a {
   text-decoration: none;
-  color: black; }
+  color: #000000; }
 
 #myBtn {
   position: fixed;
   float: right;
-  right: 0;
+  right: 1em;
   bottom: 1em;
   font-size: 1em;
   border-radius: 0.5em;
-  background-color: #2f2f2f;
-  color: white; }
+  background-color: #000000;
+  color: #ffffff;
+  border: #000000; }
 
 /* Add Animation */
 @-webkit-keyframes slideIn {
@@ -676,24 +677,23 @@ ul.content span + span {
   font-family: "Bree Serif", serif, sans-serif; }
 
 #footer-open {
-  color: white;
+  color: #ffffff;
   text-align: left;
   font-size: 2em; }
 
 #footer-text {
   text-align: center;
-  color: white; }
+  color: #ffffff; }
 
 .address {
-  float: left;
   display: inline-block;
   text-align: justify;
   max-width: 110px;
-  color: white;
+  color: #ffffff;
   margin: 0; }
 
 .address a {
-  color: white; }
+  color: #ffffff; }
 
 .footer-monthu {
   grid-area: monthu; }
@@ -707,7 +707,7 @@ ul.content span + span {
 .container-hours {
   display: grid;
   grid-template-areas: 'monthu' 'fri' 'satsun';
-  color: white;
+  color: #ffffff;
   grid-gap: 2em; }
 
 .footer-social {
@@ -726,7 +726,7 @@ ul.content span + span {
 .container-footer {
   display: grid;
   grid-template-areas: 'form' 'address' 'social';
-  color: white;
+  color: #ffffff;
   grid-gap: 2em; }
 
 @media screen and (min-width: 500px) {
