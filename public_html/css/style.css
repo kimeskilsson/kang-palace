@@ -445,6 +445,10 @@ main #about {
   color: white;
   padding-bottom: 5em; }
 
+#menu h2 {
+  text-align: center;
+  font-family: "Courgette", cursive; }
+
 .fa-plus {
   float: right;
   font-size: 0.5em; }
@@ -453,8 +457,8 @@ main #about {
   margin: 0% 15% 0% 15%; }
 
 .collapsible {
-  background-color: #c6bd9e;
-  color: black;
+  background-color: #730003;
+  color: white;
   cursor: pointer;
   padding: 0.4em;
   width: 100%;
@@ -465,27 +469,27 @@ main #about {
   text-align: center;
   outline: none;
   font-size: 1em;
-  font-family: 'Bree Serif', serif; }
+  font-family: "Bree Serif", serif, sans-serif; }
 
 .itemdescription {
   max-width: 500px;
   font-size: 12px;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif, sans-serif;
   -webkit-transform: translateY(-0.6em);
           transform: translateY(-0.6em); }
 
 .active, .collapsible:hover {
-  background-color: #730003; }
+  background-color: #b98e1d; }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #c6bd9e;
+  background-color: #2f2f2f;
   list-style: none;
   font-size: 15px;
-  font-family: 'Bree Serif', serif;
-  color: black; }
+  font-family: "Bree Serif", serif, sans-serif;
+  color: white; }
 
 ul.content {
   padding: 0;
@@ -500,16 +504,16 @@ ul.content li:before {
 
 ul.content span:first-child {
   padding-right: 0.33em;
-  background-color: #c6bd9e; }
+  background-color: #2f2f2f; }
 
 ul.content span + span {
   float: right;
   padding-left: 0.33em;
-  background-color: #c6bd9e; }
+  background-color: #2f2f2f; }
 
 #about {
   text-align: center;
-  color: white;
+  color: #ffffff;
   text-shadow: 1px 1px 1px black;
   font-family: "Bree Serif", serif, sans-serif;
   max-width: 1920px; }
@@ -528,7 +532,8 @@ ul.content span + span {
   padding: 0;
   max-width: 500px; }
 
-#about-div h2 {
+#about h2 {
+  font-family: "Courgette", cursive;
   text-align: center; }
 
 .shadow {
@@ -539,9 +544,11 @@ ul.content span + span {
 #find {
   padding-bottom: 3em;
   color: white;
-  text-shadow: 1px 1px 1px #000000;
   text-align: center;
   font-family: "Bree Serif", serif, sans-serif; }
+
+#find h2 {
+  font-family: "Courgette", cursive; }
 
 #map {
   height: 400px;
@@ -666,7 +673,7 @@ ul.content span + span {
 
 #footer {
   padding: 5em;
-  background-color: #2f2f2f;
+  background-color: #000000;
   font-family: "Bree Serif", serif, sans-serif; }
 
 #footer-open {

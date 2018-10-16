@@ -18,6 +18,12 @@ main {
   padding-bottom: 5em;
 } 
 
+#menu h2 {
+  text-align: center;
+  font-family: $font-pile;
+}
+
+
 
 
 .fa-plus {
@@ -31,8 +37,8 @@ main {
 }
 
 .collapsible {
-  background-color: $quinary-color;
-  color: black;
+  background-color: $primary-color;
+  color:white;
   cursor: pointer;
   padding: 0.4em;
   width: 100%;
@@ -43,29 +49,29 @@ main {
   text-align: center;
   outline: none;
   font-size: 1em;
-  font-family: 'Bree Serif', serif;
+  font-family:$font-stack;
 }
 
 .itemdescription {
   max-width: 500px;
   font-size: 12px;
-  font-family: 'Bree Serif', serif;
+  font-family:$font-stack;
   transform: translateY(-0.6em);
 }
 
 .active, .collapsible:hover {
-  background-color: #730003;
+  background-color: $secondary-color;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: $quinary-color;
+  background-color: $tertiary-color;
   list-style: none;
   font-size: 15px;
-  font-family: 'Bree Serif', serif;
-  color: black;
+  font-family:$font-stack;
+  color:white;
 } 
 
 ul.content {
@@ -90,19 +96,19 @@ ul.content li:before {
 
 ul.content span:first-child {
   padding-right: 0.33em;
-  background-color: $quinary-color;
+  background-color: $tertiary-color;
 }
 
 ul.content span + span {
   float: right;
   padding-left: 0.33em;
-  background-color: $quinary-color;
+  background-color: $tertiary-color;
 }
 
 
 #about {
   text-align: center;
-  color: white;
+  color: $septenary-color;
   text-shadow: 1px 1px 1px black;
   font-family: $font-stack;
   max-width: 1920px;
@@ -126,8 +132,10 @@ ul.content span + span {
    max-width: 500px;
  }
 
- #about-div h2 {
-   text-align: center;
+
+ #about h2 {
+  font-family: $font-pile;
+  text-align: center;
  }
 
  .shadow {
@@ -143,9 +151,12 @@ ul.content span + span {
   // background-color: $quinary-color;
   padding-bottom: 3em;
   color: white;
-  text-shadow: 1px 1px 1px $quaternary-color;
   text-align: center;
   font-family: $font-stack;
+}
+
+#find h2 {
+  font-family: $font-pile;
 }
 
 #map {
