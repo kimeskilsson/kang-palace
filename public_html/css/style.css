@@ -645,7 +645,9 @@ ul.content span + span {
   font-family: "Bree Serif", serif, sans-serif; }
 
 #footer-open {
-  text-align: left; }
+  color: white;
+  text-align: left;
+  font-size: 2em; }
 
 #footer-text {
   text-align: center;
@@ -684,7 +686,8 @@ ul.content span + span {
   margin-top: 1em; }
 
 .footer-address {
-  grid-area: address; }
+  grid-area: address;
+  max-width: 170px; }
 
 .footer-form {
   grid-area: form; }

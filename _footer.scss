@@ -22,8 +22,9 @@
 } 
 
 #footer-open {
-
+  color: white;
   text-align: left;
+  font-size: 2em;
 }
 
 #footer-text{
@@ -79,6 +80,7 @@
 
 .footer-address {
   grid-area: address;
+  max-width: 170px;
 }
 
 .footer-form {
@@ -100,8 +102,7 @@
   .container-footer {
   
     grid-template-areas: 
-    'address form social';
-    
+    'address form social';    
  
   }
   .container-hours {
