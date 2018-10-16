@@ -307,10 +307,10 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #ffffff; }
+  background-color: #2f2f2f; }
 
 .wrapper {
-  max-width: 960px;
+  max-width: 1920px;
   margin: 0 auto; }
 
 /* ==== NAVBAR ====*/
@@ -374,7 +374,7 @@ nav {
 /* ==== HEADER ==== */
 .parallax-header {
   background-image: url(../img/kangheader.jpg);
-  height: 70vh;
+  min-height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -382,13 +382,13 @@ nav {
 
 #headerlogo {
   position: absolute;
-  width: 100vw;
-  top: 50vh;
-  text-align: center;
-  -webkit-transform: translateY(-70%);
-          transform: translateY(-70%);
+  width: 95vw;
+  top: 40vh;
+  -webkit-transform: translateY(-62%);
+          transform: translateY(-62%);
   -webkit-filter: drop-shadow(-10px -10px 10px #000000);
-  font-size: 5em; }
+  filter: drop-shadow(-10px -10px 10px #000000);
+  max-width: 100vw; }
 
 header p {
   position: absolute;
@@ -405,17 +405,32 @@ header p {
 
 @media screen and (min-width: 450px) {
   header p {
-    font-size: 1em; } }
-@media screen and (min-width: 500px) {
-  header p {
-    font-size: 1.5em; } }
+    font-size: 1em;
+    width: 95vw; } }
 @media screen and (min-width: 300px) {
+  #headerlogo {
+    width: 50vw;
+    top: 30vh;
+    -webkit-transform: translateX(40%);
+            transform: translateX(40%); }
+
   header p {
     font-size: 0.9em; } }
+@media screen and (min-width: 500px) {
+  #headerlogo {
+    width: 50vw;
+    top: 20vh;
+    -webkit-transform: translateX(40%);
+            transform: translateX(40%); }
+
+  header p {
+    font-size: 1.1em; } }
 @media screen and (min-width: 800px) {
   #headerlogo {
-    width: 70vw;
-    top: 55vh; }
+    width: 43vw;
+    top: 10vh;
+    -webkit-transform: translateX(40%);
+            transform: translateX(40%); }
 
   header p {
     font-size: 1.5em; } }
@@ -427,9 +442,12 @@ main #about {
   text-shadow: 1px 1px 1px #000000; }
 
 #menu {
-  background-color: #c6bd9e;
   color: white;
   padding-bottom: 5em; }
+
+.fa-plus {
+  float: right;
+  font-size: 0.5em; }
 
 .menuwrapper {
   margin: 0% 15% 0% 15%; }
@@ -438,12 +456,15 @@ main #about {
   background-color: #c6bd9e;
   color: black;
   cursor: pointer;
-  padding: 5px;
+  padding: 0.4em;
   width: 100%;
-  border: none;
+  border-radius: 1em;
+  border-width: 0.2em;
+  border-color: #2f2f2f;
+  border-style: solid;
   text-align: center;
   outline: none;
-  font-size: 15px;
+  font-size: 1em;
   font-family: 'Bree Serif', serif; }
 
 .itemdescription {
@@ -494,7 +515,7 @@ ul.content span + span {
 
 .parallax-about {
   background-image: url(../img/about-us-background.jpg);
-  min-height: 50vh;
+  min-height: 70vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -514,7 +535,6 @@ ul.content span + span {
   display: inline-block; }
 
 #find {
-  background-color: #c6bd9e;
   padding-bottom: 3em;
   color: white;
   text-shadow: 1px 1px 1px #000000;
