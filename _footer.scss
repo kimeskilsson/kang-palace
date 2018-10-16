@@ -21,8 +21,13 @@
   font-family: $font-stack;
 } 
 
+#footer-open {
+  color: white;
+  text-align: left;
+  font-size: 2em;
+}
 
-.footer-text{
+#footer-text{
   text-align: center;
   color: white;
 }
@@ -41,12 +46,6 @@
   color: white;
 }
 
-
-
-.footer-open {
-  grid-area: open;
-  text-align: left;
-}
 
 .footer-monthu {
   grid-area: monthu;
@@ -81,6 +80,7 @@
 
 .footer-address {
   grid-area: address;
+  max-width: 170px;
 }
 
 .footer-form {
@@ -102,8 +102,7 @@
   .container-footer {
   
     grid-template-areas: 
-    'address form social';
-    
+    'address form social';    
  
   }
   .container-hours {
@@ -112,7 +111,7 @@
       'monthu fri satsun';
   }
 
-  .footer-open {
+  #footer-open {
     text-align: center;
   }
 }

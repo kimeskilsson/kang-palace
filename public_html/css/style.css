@@ -646,7 +646,12 @@ ul.content span + span {
   background-color: #2f2f2f;
   font-family: "Bree Serif", serif, sans-serif; }
 
-.footer-text {
+#footer-open {
+  color: white;
+  text-align: left;
+  font-size: 2em; }
+
+#footer-text {
   text-align: center;
   color: white; }
 
@@ -660,10 +665,6 @@ ul.content span + span {
 
 .address a {
   color: white; }
-
-.footer-open {
-  grid-area: open;
-  text-align: left; }
 
 .footer-monthu {
   grid-area: monthu; }
@@ -687,7 +688,8 @@ ul.content span + span {
   margin-top: 1em; }
 
 .footer-address {
-  grid-area: address; }
+  grid-area: address;
+  max-width: 170px; }
 
 .footer-form {
   grid-area: form; }
@@ -705,5 +707,5 @@ ul.content span + span {
   .container-hours {
     grid-template-areas: 'monthu fri satsun'; }
 
-  .footer-open {
+  #footer-open {
     text-align: center; } }
