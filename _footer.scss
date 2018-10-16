@@ -21,7 +21,7 @@
 } 
 
 
-#footer-text{
+.footer-text{
   text-align: center;
   color: white;
 }
@@ -39,6 +39,36 @@
 .address a {
   color: white;
 }
+
+
+
+.footer-open {
+  grid-area: open;
+  text-align: left;
+}
+
+.footer-monthu {
+  grid-area: monthu;
+}
+
+.footer-fri {
+  grid-area: fri;
+}
+
+.footer-satsun {
+  grid-area: satsun;
+}
+
+.container-hours {
+  display: grid;
+  grid-template-areas: 
+  'monthu'
+  'fri'
+  'satsun';
+  color: white;
+  grid-gap: 2em;
+}
+
 
 .footer-social {
   grid-area: social;
@@ -74,5 +104,14 @@
     'address form social';
     
  
+  }
+  .container-hours {
+  
+      grid-template-areas: 
+      'monthu fri satsun';
+  }
+
+  .footer-open {
+    text-align: center;
   }
 }
